@@ -1,4 +1,4 @@
-> Kawi Hettiarchchi:
+
 const dbConnection = require("./sqlite");
 
 dbConnection
@@ -149,7 +149,7 @@ const updateStudent = async (name, age, Hometown, id) => {
     });
 }
 
-> Kawi Hettiarchchi:
+
 const deleteStudent = async (id) => {
     const sql = DELETE FROM student WHERE id = ?
     return new Promise((resolve, reject) => {
